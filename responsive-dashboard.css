@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #001;
+  display: flex;
+}
+
+  .profile{
+    width: 65px;
+    height: 100vh;
+    background: #123;
+    overflow: hidden;
+    transition: .5s;
+  }
+
+  .profile:hover{
+    width: 260px;
+  }
+
+.img-box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.img-box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  text-transform: capitalize;
+  display: block;
+  aspect-ratio: 1 / 1;
+}
+
+.img-box h2{
+  font-size: 20px;
+}
+
+.dashbord-icons{
+  display: block;
+  height: 89%;
+  position: relative;
+}
+
+.dashbord-icons ul li{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.dashbord-icons ul li i{
+  font-size: 40px;
+  align-items: center;
+}
+
+.dashbord-icons ul li p{
+  font-size: 17px;
+}
+
+.dashbord-icons ul li:hover,.dashbord-icons ul li.dashboard, .content:hover, td:hover{
+  background: #ffffff55;
+  border-radius: 20px;
+}
+
+.log-out{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 0, 0, 0.585);
+  border-radius: 20px;
+}
+
+.title-info{
+  width: 100%;
+  margin: 10px;
+}
+
+.dash-title{
+  background: #0481ff;
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.information{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.content{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #123;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.information .icon-info{
+  font-size: 40px;
+  
+}
+
+.information .data-info span{ 
+  font-size: 25px;
+}
+
+table{
+  width: 100%;
+  height: 65%;
+  align-items: center;
+  border-spacing: 10px;
+}
+
+th, td{
+  height: 30px;
+  background: #123;
+  border-radius: 10px;
+}
+
+th{
+  background: #04a3ff6d;
+}
+
+td{
+  padding: 5px 10px;
+}
+
+.price{
+  background: rgba(172, 255, 47, 0.663);
+}
+
+.price-{
+  background: rgba(255, 47, 245, 0.749);
+}
+
+.count{
+  background: goldenrod;
+  color: #000;
+}
+
